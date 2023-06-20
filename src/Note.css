@@ -1,0 +1,52 @@
+/* Note container */
+.note {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  /* Note title */
+  .note .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Note content */
+  .note .content {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  /* Note actions */
+  .note .actions {
+    margin-top: 10px;
+  }
+  
+  /* Note action buttons */
+  .note .actions button {
+    background-color: transparent;
+    border: none;
+    color: #707070;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  /* Note action buttons hover */
+  .note .actions button:hover {
+    color: #000000;
+  }
+  
+  /* Note action buttons delete */
+  .note .actions .delete {
+    color: #ff4040;
+  }
+  
+  /* Note action buttons delete hover */
+  .note .actions .delete:hover {
+    color: #d90000;
+  }
+  
